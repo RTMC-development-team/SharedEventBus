@@ -110,6 +110,16 @@
   <!-- <prerequisites>...</prerequisites> -->
   <!-- <repositories>...</repositories> -->
   <!-- <pluginRepositories>...</pluginRepositories> -->
-  <!-- <distributionManagement>...</distributionManagement> -->
+  <distributionManagement>
+    <downloadUrl>http://rushteamc.com/dev/SharedEventBus</downloadUrl>
+    <repository>
+      <id>repo</id>
+      <url>sftp://rtmc@rushteamc.com/var/lib/jenkins/jobs/SharedEventBus/repo</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshot-repo</id>
+      <url>sftp://rtmc@rushteamc.com/var/lib/jenkins/jobs/SharedEventBus/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
   <profiles></profiles>
 </project>
